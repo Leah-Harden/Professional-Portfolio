@@ -1,0 +1,56 @@
+/* header */
+nav {
+    background-color: rgb(76, 46, 76);
+    color: aliceblue;
+    overflow: hidden;
+    width: 1980px;
+    height: 125px;
+
+}
+
+h1 {
+    position: absolute;
+    top: 25px;
+    padding: 20px 25px;
+    font-size: 50px;
+}
+
+.nav {
+    position: relative;
+    left: 1500px;
+    top: 50px;
+    float: left;
+    display: inline;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* header */
+
+/* About Me */
+.About {
+    background-color: rgb(76, 46, 76);
+    color: aliceblue;
+}
+
+.Portrait {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+/* About Me */
+
+/* My Work */
+h3 {
+    display: block;
+    font-size: 50px;
+    justify-content: center;
+}
+
+/* My Work */
