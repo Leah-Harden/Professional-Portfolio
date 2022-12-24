@@ -30,19 +30,37 @@ h1 {
 
 /* About Me */
 .About {
+    width: 1980px;
+    height: 600px;
     background-color: rgb(76, 46, 76);
     color: aliceblue;
 }
 
+.About-box {
+    margin: 0% 15%;
+}
+
 .Portrait {
+    margin: 5%;
     width: 400px;
     height: 400px;
     border-radius: 50%;
+    border: .5em aliceblue solid;
+}
+
+h2,
+.bio {
+    border: solid 2px saddlebrown;
+
 }
 
 h2 {
+
     font-size: 50px;
+
 }
+
+.bio {}
 
 /* About Me */
 
