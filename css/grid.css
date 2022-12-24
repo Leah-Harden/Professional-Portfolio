@@ -1,3 +1,5 @@
 .About-grid {
     display: grid;
+    width: min(95% 70rem);
+    gap: 1.5rem;
 }
