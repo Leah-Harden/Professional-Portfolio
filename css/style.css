@@ -85,6 +85,7 @@ h3 {
 }
 
 .Work {
+    justify-content: center;
     display: flex;
     flex-wrap: wrap;
 }
@@ -99,3 +100,49 @@ h3 {
 /* My Work */
 
 /* Contact */
+
+h4 {
+    text-align: center;
+    margin: 4%;
+    display: block;
+    font-size: 50px;
+    justify-content: center;
+}
+
+form {
+    padding: 100px;
+    text-align: center;
+    background-color: rgb(71, 47, 87);
+}
+
+input {
+    height: 40px;
+    font-size: 15px;
+    margin: 5px;
+
+}
+
+.email {
+    width: 400px;
+}
+
+.message {
+    width: 400px;
+    height: 400px;
+}
+
+.name {
+    display: inline;
+}
+
+,
+form-grid {}
+
+/* Contact */
+/* Footer */
+footer {
+    text-align: center;
+    margin: 40px;
+}
+
+/* Footer */

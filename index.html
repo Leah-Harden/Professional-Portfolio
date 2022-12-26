@@ -15,16 +15,16 @@
 
     <ul>
 
-        <li href="#" class="nav">
+        <li href="#About-Me" class="nav">
             About Me
         </li>
-        <li href="#" class="nav">
+        <li href="#Work" class="nav">
             Work
         </li>
-        <li href="#" class="nav">
+        <li href="#Contact" class="nav">
             Contact
         </li>
-        <li href="#" class="nav">
+        <li href="#Resume" class="nav">
             Resume
         </li>
 
@@ -37,7 +37,7 @@
     <div class="About">
         <div class="About-box" class="About-grid">
             <img class="Portrait" src="images/Portrait.jpg" alt="photo of me">
-            <h2>About me</h2>
+            <h2 class="About-Me">About me</h2>
             <p class="bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                 labore et
                 dolore
@@ -51,7 +51,7 @@
         </div>
     </div>
     <h3>My Work</h3>
-    <div class="Work">
+    <div class="Work" id="Work">
         <section class="card">
             <img src="images/placeholder.png" alt="placeholder">
             <header>My Project</header>
@@ -84,8 +84,19 @@
         </section>
     </div>
     <h4> Contact</h4>
+    <form class="form-grid">
+        <input type="text" class="name" id="fname" name="fname" value="First Name">
+        <input type="text" class="name" id="lname" name="lname" value="Last Name"> <br>
 
+        <input type="text" class="email" id="email" name="email" value="Email"><br>
+        <input type="text" class="message" id="message" value="Write your message..."> <br>
 
+        <input type="submit" id="submit" value="Submit">
+    </form>
+
+    <footer>
+        © 2022 all rights reserved
+    </footer>
 </body>
 
 </html>
