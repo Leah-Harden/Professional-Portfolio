@@ -102,6 +102,33 @@ h3 {
     background-color: #DB7F8B;
 }
 
+.big-card {
+    text-align: center;
+    background-color: #DB7F8B;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.big-img {
+    margin: 30px;
+    width: 800px;
+    height: 500px;
+    border: white solid 10px;
+    box-shadow: 10px 10px 5px #B26A80;
+}
+
+.big-text {
+
+    padding: 20px;
+    font-family: 'Antic Slab', serif;
+}
+
+
+.card-img {
+    width: 500px;
+    height: 500px;
+}
+
 .card {
     flex: 0 1 auto;
     border: 1px salmon solid;
