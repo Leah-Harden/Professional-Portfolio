@@ -8,6 +8,21 @@
     <title> Professional Portfolio</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/grid.css">
+    <!-- Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Antic+Slab&family=Sacramento&display=swap" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Antic+Slab&family=Sacramento&display=swap');
+    </style>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Send+Flowers&display=swap" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Send+Flowers&display=swap');
+    </style>
+    <!-- Fonts-->
     <link rel="stylesheet" href="css/style.css">
 </head>
 <nav>
@@ -15,26 +30,32 @@
 
     <ul>
 
-        <li href="#About-Me" class="nav">
-            About Me
+        <li class="nav">
+            <a href="#About-Me">
+                About Me
+            </a>
         </li>
-        <li href="#Work" class="nav">
-            Work
+        <li class="nav">
+            <a href="#Work">
+                Work
+            </a>
         </li>
-        <li href="#Contact" class="nav">
-            Contact
+        <li class="nav">
+            <a href="#Contact">
+                Contact
+            </a>
         </li>
-        <li href="#Resume" class="nav">
+        <!--   <li href="#Resume" class="nav">
             Resume
         </li>
-
+    -->
     </ul>
 
 </nav>
 
 <body>
     <img src="images/HomePage.png" alt="Home page" width="1980" height="1000" class="home-img">
-    <div class="About">
+    <div class="About" id="About-Me">
         <div class="About-box" class="About-grid">
             <img class="Portrait" src="images/Portrait.jpg" alt="photo of me">
             <h2 class="About-Me">About me</h2>
@@ -83,8 +104,9 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
         </section>
     </div>
-    <h4> Contact</h4>
+
     <form class="form-grid">
+        <h4 id="Contact"> Contact</h4>
         <input type="text" class="name" id="fname" name="fname" value="First Name">
         <input type="text" class="name" id="lname" name="lname" value="Last Name"> <br>
 
@@ -95,7 +117,7 @@
     </form>
 
     <footer>
-        © 2022 all rights reserved
+        © 2023 all rights reserved
     </footer>
 </body>
 
