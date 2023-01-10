@@ -4,9 +4,9 @@ font-family: 'Sacramento', cursive;
 */
 
 nav {
-    background-color: #F7D3B4;
+    background-image: url("header.jpg");
     color: #40325B;
-    height: 125px;
+    height: 150px;
     text-align: center;
     padding: 50px 0px;
 }
@@ -28,33 +28,75 @@ h1 {
     font-family: 'Antic Slab', serif;
 }
 
-.Home-img {
-    margin: 0px;
+body {
+    background-color: #f3c4a3;
+}
+
+
+.home-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+    width: 71%;
+    height: 71%;
+    text-align: center;
+    border-radius: 5%;
+    margin-top: 80px;
+    border: #ffffff solid 10px;
 }
 
 /* header */
 
 /* About Me */
+
+.peach {
+    position: absolute;
+    bottom: -440px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.peach svg {
+    position: relative;
+    display: block;
+    width: calc(124% + 1.3px);
+    height: 174px;
+}
+
+.peach .shape-fill {
+    fill: #F5B59E;
+}
+
 .About {
     margin: 0px;
+    display: flex;
     width: 100%;
     height: 600px;
     background-color: #F5B59E;
     color: #40325B;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
 .About-box {
 
-    margin: 0% 15%;
+    padding: 5% 15%;
+    padding-bottom: 150px;
 }
 
 .Portrait {
-    margin: 4%;
+    margin: 6%;
     float: left;
     width: 400px;
     height: 400px;
     border-radius: 50%;
     border: .5em aliceblue solid;
+    box-shadow: #e085b5 10px 10px 5px;
 }
 
 h2,
@@ -78,11 +120,35 @@ h2 {
     max-height: 250px;
     overflow: auto;
 
+
 }
 
 /* About Me */
 
 /* My Work */
+
+.pinkish {
+    position: absolute;
+    bottom: -1100px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.pinkish svg {
+    position: relative;
+    display: block;
+    width: calc(118% + 1.3px);
+    height: 181px;
+    transform: rotateY(180deg);
+}
+
+.pinkish .shape-fill {
+    fill: #DB7F8B;
+}
+
 h3 {
     font-family: 'Send Flowers', cursive;
     text-align: center;
@@ -95,11 +161,13 @@ h3 {
 
 }
 
+
 .Work {
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
     background-color: #DB7F8B;
+    padding: 2%;
 }
 
 .big-card {
@@ -114,6 +182,7 @@ h3 {
     width: 800px;
     height: 500px;
     border: white solid 10px;
+    border-radius: 5%;
     box-shadow: 10px 10px 5px #B26A80;
 }
 
@@ -127,6 +196,7 @@ h3 {
 .card-img {
     width: 500px;
     height: 500px;
+    border-radius: 5%;
 }
 
 .card {
@@ -134,15 +204,38 @@ h3 {
     border: 1px salmon solid;
     background-color: #ffffff;
     margin: 2%;
+    border-radius: 5%;
     box-shadow: 10px 10px 5px rgb(130, 82, 106);
     font-family: 'Antic Slab', serif;
-    padding: 10px;
+    padding: 15px;
     color: #40325B;
+    margin-bottom: 200px;
 }
 
 /* My Work */
 
 /* Contact */
+.purple {
+    position: absolute;
+    bottom: -2800px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.purple svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 231px;
+    transform: rotateY(180deg);
+}
+
+.purple .shape-fill {
+    fill: #B26A80;
+}
 
 h4 {
     font-family: 'Send Flowers', cursive;
